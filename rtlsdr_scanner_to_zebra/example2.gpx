@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="frame" version="1.1">
+	<trk>
+		<name>test name</name>
+		<trkseg>
+			<trkpt lat="8.55778666667" lon="-71.2077">
+				<ele>1262.7</ele>
+				<time>2016-01-24T23:32:18Z</time>
+			</trkpt>
+			<trkpt lat="8.55778833333" lon="-71.2077016667">
+				<ele>1263.1</ele>
+				<time>2016-01-24T23:32:20Z</time>
+			</trkpt>
+			<trkpt lat="8.55778833333" lon="-71.2077033333">
+				<ele>1263.4</ele>
+				<time>2016-01-24T23:32:23Z</time>
+			</trkpt>
+			<trkpt lat="8.55778833333" lon="-71.2077033333">
+				<ele>1263.1</ele>
+				<time>2016-01-24T23:32:26Z</time>
+			</trkpt>
+			<trkpt lat="8.55778833333" lon="-71.2077033333">
+				<ele>1262.8</ele>
+				<time>2016-01-24T23:32:29Z</time>
+			</trkpt>
+			<trkpt lat="8.55779" lon="-71.2077033333">
+				<ele>1262.8</ele>
+				<time>2016-01-24T23:32:32Z</time>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
