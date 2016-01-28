@@ -90,8 +90,8 @@ def parse_file():
             next(my_csv_file)
 
             for row in my_csv_file:
-                frequencies.append(row[' Frequency (MHz)'])
-                captures.append(row['Level (dB/Hz)'])
+                frequencies.append(float(row[' Frequency (MHz)']))
+                captures.append(float(row['Level (dB/Hz)']))
                 if str(init_time) != str(row['Time (UTC)']):
                     info.samples += 1
                     if len(frequencies_cmp) == 0:
@@ -105,8 +105,8 @@ def parse_file():
                             lng = str(place_x.getAttribute("lat"))
 
                             place["coordinates"].append({
-                                "lat": lat,
-                                "lng": lng,
+                                "lat": float(lat),
+                                "lng": float(lng),
                                 "date": datetime.datetime.fromtimestamp(float(init_time)).strftime('%Y-%m-%d %H:%M:%S'),
                                 "cap": captures[:-1]
                             })
